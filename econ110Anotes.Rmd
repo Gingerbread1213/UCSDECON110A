@@ -1,0 +1,455 @@
+---
+title: "ECON 110A notes"
+author: "Haojie Liu"
+date: "2023-06-02"
+output: pdf_document
+---
+
+## Two-Period Neoclassical Consumption Model
+
+### 1. The economy consists of a representative consumer who only lives for two periods: today (period 1), and the future (period 2).
+
+### 2. The consumer earns income in both periods; can save (or borrow) and receives (or pays) some interest.
+
+$Y_1$: income in period 1\newline
+$Y_2$: income in period 2\newline
+$S$: savings(borrowing)\newline\newline
+$C_1$: consumptions in period 1\newline
+$C_2$: consumptions in period 2\newline
+$1+R$: gross interest rate\newline
+$$Y_1 = C_1 + S$$
+$$Y_2+S(1+R)=C_2$$ so $$Y_1=C_1+\frac{C_2-Y_2}{1+R}$$
+$$C_1+\frac{C_2}{1+R}=Y_1+\frac{Y_2}{1+R}$$
+$\frac{1}{1+R}$: price of consumption in the future in terms of consumption today\newline
+$1+R$: Price of consumption today in terms of consumption in the future\newline
+
+
+$$U(C_1)+\beta U(C_2), \space\space \beta\in[0,1]$$
+$\triangle_1$: ice cream now\newline
+$\beta\triangle_1$: ice cream future\newline
+
+
+### 3. The consumer maximizes lifetime utility subject to the intertemporal budget constraint
+
+$$max_{C_1,C_2} U(C_1)+\beta U(C_2)\space\space\space such\space that \space C_1+\frac{C_2}{1+R}=Y_1+\frac{Y_2}{1+R}$$
+recall that $$S=Y_1-C_1$$
+
+$$solution: U'(C_1)=\beta(1+R)U'(C_2)$$
+$$U'(C)=\frac{dU(C)}{d(C)}$$
+
+### Suppose: 
+
+$$U'(C_1)>\beta(1+R)U'(C_2)$$
+
+$$U'(C_1)<\beta(1+R)U'(C_2)$$
+
+\newpage
+
+## Gross Domestic Product
+
+### Market value of the final goods and services produced in an economy over a certain period of time.
+
+1. Market value – allows to add things up
+
+2. Final – avoids double counting
+
+3. Goods and Services – tangibles and intangibles
+
+4. Produced – not all sales are GDP: used cars/houses, assets...
+
+5. In an Economy – within certain boundaries (physical, political)
+
+6. Certain Period of Time – GDP is a flow, not a stock
+
+
+**Production = Income = Expenditure**
+
+
+Production: value added produced\newline\newline
+Income: remuneration to factors of production\newline\newline
+Expenditure: end‐use of value added produced\newline\newline
+
+
+### GDP by Value Added (= Sales – Cost of Inputs)
+
+### GDP by Income (= Wages + Profits)
+
+### The Expenditure Approach
+
+$$GDP = C + I + G + X - IM$$
+
+C: Private Consumption Expenditure\newline\newline
+I: Private Investment Expenditure\newline\newline
+G: Government Expenditure\newline\newline
+X: Exports (Foreign Expenditure in Domestic Goods/Services)\newline\newline
+IM: Imports (Domestic Expenditure in Foreign Goods/Services)\newline\newline
+
+
+### GDP by Income (= Wages + Profits) = Wages and Benefits to Employees + Taxes (less subsidies) on Businesses + Profits + Depreciation of Fixed Capital
+
++ Wages: remuneration to labor as factor of production
++ Taxes: remuneration to government as factor of production
++ Profits: remuneration to owners/managers as factor of production
++ Depreciation of Fixed Capital: remuneration to capital as factor of production
+
+## Nominal and Real GDP
+
+$$GDP_t=\Sigma P^i_y \times Q^i_t$$
+where i = food, rent, cars; t = time
+
+$$RGDP_t=\Sigma P^i_X \times Q^i_t$$
+
+
++ Initial Price method(Laspeyres):$P^i_X$ areearliestdateprices
++ Final Price method (Paasche): $P^i_X$ are latest date prices
++ Chained‐Weighted method: $P^i_X$ are “weighted” averages across dates 
+
+
+## The Role of Prices: Comparing GDP Across Countries
+
+$$GDP^{CH}_{t,P^{US}}=GDP^{CH}_t \times E_t \times \frac{P_t^{US}}{P_t^{CH}}$$
+
+
+$E_t$ (\$/¥): Exchange Rate(Dollars per Yuan)\newline\newline
+$\frac{P_t^{US}}{P_t^{CH}}$: Price Level Ratio GDP Conversion Factor (World Bank Data)\newline\newline
+
+## Growth Rate and Compounding
+
+Growth rate $g$ of variable $y$ between $t$ and $t+1$
+
+$$g_{t+1}=\frac{y_{t+1}-y_t}{y_t}$$
+In percentage: $100\times g$
+
+
+### Annualized growth rate $\bar g$ of variable y between year 0 and t assuming that previous growth is “reinvested”.
+
+$$y_t= (1+\bar g)^ty_0$$
+
+
+## GDP per Capita
+
+$$y=\frac{Y}{L},k=\frac{K}{L}$$
+$$y^*=\frac{Y^*}{L^*}=\frac{\bar A\bar K^{\alpha}\bar L^{1-\alpha}}{\bar L}=\bar A(\frac{\bar K}{\bar L})^\alpha$$
+$$K^* = \frac{K^*}{L^*}=\frac{\bar K}{\bar L}$$
+So $$y^*=\bar A(k^*)^\alpha$$
+
+
+
+
+\newpage
+
+# Production Model
+
+## The Production Function
+
+$$Y=F(A,K,L)$$
+
+### Cobb-Douglas:
+
+$$Y=AK^\alpha L^{1-\alpha}$$
+
++ F = production function
++ A = Ideas
++ K = capital
++ L = labor
++ Y = output "value added"
+
+
+**Marginal Product**: extra output produced by increasing one factor while keeping all the other factors fixed.\newline\newline
+
+**Diminishing Marginal Product**: Extra output produced by increasing one factor while keeping all the other fixed is decreasing in the one increasing factor.\newline\newline
+
+$$MPL=\frac{dF(K,L)}{dL}$$
+$$MPK=\frac{dF(K,L)}{dK}$$
+
++ Production Function: $F(K,L)=\bar A K^{\alpha}L^{1-\alpha}$
++ $MPL = (1-\alpha)\bar A K^{\alpha}L^{-\alpha}=(1-\alpha)\bar A(\frac{K}{L})^\alpha$
++ $MPK = \alpha\bar AK^{\alpha-1}L^{1-\alpha}=\alpha\bar A(\frac{L}{K})^{1-\alpha}$
+
+**Returns to Scale (RS)**: change in output when all factors are changed by the same proportion.\newline\newline
+
+$$F(\lambda K, \lambda L)=\lambda^sY, \lambda >0$$
+
++ S=1: constant return to scale
++ s>1: increasing returns to scale, $\lambda = 1.1$, $\lambda^2=1.1^2>1.1$
++ s<1: decreasing returns to scale, $\lambda = 1.1$, $\lambda^{\frac{1}{2}}=1.1^{\frac{1}{2}}<1.1$
+
+**Assumption: Constant Returns to Scale (CRS)**: When all the production factors are scaled by $\lambda$, output is also scaled by $\lambda$.\newline\newline
+
+
+## Profit Maximization
+
+**Assumption**: Firms choose K and L such that profits are maximized.\newline\newline
+
+$$\pi = P\times F(K,L)-r\times K-w\times L$$
+
++ w: wage rate
++ r: rental rate of capital
++ P: price of a unit of output = 1
+
+*First order conditions*\newline\newline
+
+$$K:\frac{d\pi}{dK}=0 \to \frac{dF(K,L)}{dK}-r=0$$
+$$K:\frac{d\pi}{dL}=0 \to \frac{dF(K,L)}{dL}-w=0$$
+
+so $MPL=w$, $MPK=r$\newline\newline
+
+
+### Aggregation
+
+**Assumption**: the total value added in the economy can be represented by the production function of a single “representative” firm where K is aggregate capital used in the economy, and L is total labor employed.
+
+$$Y_A=F(K_A,L_A), Y_B=F(K_B,L_B)$$
+$$Y=P_AY_A+P_BY_B$$
+Aggregation: 
+
+$$Y=F(K,L)$$
+
+where: 
+$$L=L_A+L_B,K=P^K_AK_A+P^K_BK_B$$
+
+## Equilibrium
+
+$$L^d=L^s, K^d=K^s$$
+**unknowns: Y, K, L, w, r **
+$$Y=\bar A K^{\alpha}L^{1-\alpha}$$
+$$r=\alpha\bar A(\frac{L}{K})^{1-\alpha}(=MPK)$$
+$$w=(1-\alpha)\bar A(\frac{K}{L})^{\alpha}(=MPL)$$
+$$L=\bar L, K=\bar K$$
+
+**solution:$Y^*,K^*,L^*,W^*,r^*$**
+
+
+
+$$L^*=\bar L, K^*=\bar K$$
+$$Y=\bar A K^{\alpha}L^{1-\alpha}$$
+
+$$r^*=\alpha\bar A(\frac{\bar L}{K})^{1-\alpha}$$
+
+$$w^*=(1-\alpha)\bar A(\frac{\bar K}{L})^{\alpha}$$
+
+
+$$Y^*=\bar A\bar K^{\alpha}\bar L^{1-\alpha}$$
+
+### Production Model: 4 Implications
+
+1. All available factors are utilized in equilibrium, so production depends on endowments of factors
+
+
+$$Y=\bar A\bar K^\alpha\bar L^{1-\alpha}$$
+
+
+2. Total payments to factors as share of output (factor shares) are determined by the production function
+
+Labor share: 
+$$\frac{w^*\times L^*}{Y^*}=\frac{(1-\alpha)\bar A(\frac{\bar K}{\bar L})^\alpha \times \bar L}{\bar A \bar K^{\alpha}\bar L^{1-\alpha}}=1-\alpha$$
+Capital share: 
+$$\frac{w^*\times L^*}{Y^*}=\frac{\alpha\bar A(\frac{\bar L}{\bar K})^{1-\alpha}}{\bar A \bar K^{\alpha}\bar L^{1-\alpha}}=\alpha$$
+
+3. Production (value added) is equal to Income
+
+$$Y^*=\bar K^\alpha\bar L^{1-\alpha}=r^*\times K^*+w^*\times L^*$$
+4. The profits of the representative firm are zero
+
+$$\pi^* = Y^*-r^*\times K^*-w^*\times L^*=0$$
+
+\newpage 
+
+# Solow Model
+
+### Production
+
+$$Y_t=\bar AK_t^\alpha L_t^{1-\alpha}, t\in[1,\inf]$$
+
+### Resource Constraint
+
+$$Y_t=C_t+S_t$$
+
+### Capital Accumulation
+
+
+$$K_{t+1}=K_t+I_t-\bar dK_t$$
+define $$\triangle K_{t+1}=K_{t+1}-K_t$$
+then $$\triangle K_{t+1}=I_t-\bar dK_t$$
+
+$\bar d$: depreciation rate\newline\newline
+$I_t$: Investment
+
+
+### Labor
+
+$$L_t=\bar L$$
+
+
+### Investment
+
+$$I_t=S_t$$
+$$S_t=\bar sY_t$$
+
+$\bar s$: saving rate (investment rate)\newline\newline
+
+
+
+
+### Solve Equations
+
+Start $$I^t=\bar sY_t$$ and sub into $\triangle K_{t+1}$: $$\triangle K_{t+1}=\bar sY_t-\bar dK_t$$ note $$Y_t=\bar AK_t^\alpha L_t^{1-\alpha}-dK_t$$
+
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p1.jpg){width=70%}
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p2.jpg){width=70%}
+
+
+### Long Run: Steady State Capital
+
+$$K^*:\triangle K_{t+1}=0 \to \bar s \bar A K^{*\alpha}\bar L^{1-\alpha}=\bar dK^*$$
+solve for $K^*:$
+
+$$\frac{\bar s}{\bar d}\bar A\bar L^{1-\alpha}=\frac{K^*}{K^{*\alpha}}=K^{*1-\alpha}$$
+$$(K^{*1-\alpha})^{\frac{1}{1-\alpha}}=(\frac{\bar s}{\bar d}\bar A \bar L^{1-\alpha})^{\frac{1}{1-\alpha}}\to K^*=(\frac{\bar s}{\bar d}\bar A)^{\frac{1}{1-\alpha}}\bar L$$
+capital per-worker in steady state:
+
+$$\frac{K^*}{\bar L} = (\frac{\bar s}{\bar d}\bar A)^{\frac{1}{1-\alpha}}$$
+
+$$Y^*=\bar AK^{*\alpha}\bar L^{1-\alpha}$$
+$$=\bar A[(\frac{\bar s}{\bar d}\bar A)^{\frac{1}{1-\alpha}}\bar L]^\alpha\bar L^{1-\alpha}$$
+$$=\bar A ^{1+\frac{\alpha}{1+\alpha}}(\frac{\bar s}{\bar d})^{\frac{\alpha}{1-\alpha}}\bar L$$
+$$\bar A ^{\frac{1}{1-\alpha}}(\frac{\bar s}{\bar d})^{\frac{\alpha}{1-\alpha}}\bar L$$
+
+$$y^*=\frac{Y^*}{\bar L}=\bar A^{\frac{1}{1-\alpha}}(\frac{\bar s}{\bar d})^{\frac{\alpha}{1-\alpha}}$$
+set $\alpha=\frac{1}{3}$
+
+$$y^*=\bar A^{\frac{3}{2}}(\frac{\bar s}{\bar d})^\frac{1}{2}$$
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p3.png){width=70%}
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p5.png){width=70%}
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p6.png){width=70%}
+
+### The Real Interest Rate
+
+Amount of output a person can earn by saving one unit of output for a year, or amount of output a person must pay to borrow one unit of output for a year.
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p7.png){width=70%}
+
+
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p8.png){width=70%}
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p9.png){width=70%}
+
+### Experiment 3: Increase in Population, $\bar L$
+
+### What is the effect :on output per worker (GDP per capita)?
+
+$$Y^* = \bar A^{\frac{1}{1-\alpha}}(\frac{\bar s}{\bar d})^{\frac{\alpha}{1-\alpha}}$$
+No impact in steady state
+
+$$Y^N_0=\frac{\bar A K^{*\alpha}\bar L_N^{1-\alpha}}{\bar L_N}=\bar A(\frac{K^*}{\bar L_N})<\bar A(\frac{K^*}{\bar L})^\alpha=Y^*$$
+
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p10.png){width=70%}
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p11.png){width=70%}
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p12.png){width=70%}
+
+
+
+### The Principle of Transition Dynamics
+
+The farther below the steady state capital an economy is, the faster the economy will grow.
+
+
+![](/Users/liuhaojie/Desktop/UCSDECON110A/p13.png){width=70%}
+
+
+$$\frac{\triangle K_{t+1}}{K_t}=\bar s\frac{Y^*}{K^*}((\frac{K^*}{K_t})^{1-\alpha}-1)$$
+
+$$Y=\bar A K^\alpha \bar L^{1-\alpha}$$
+$$ln(Y_t)=ln(\bar A)+\alpha ln(K)+(1-\alpha)ln(\bar L)$$
+$$g_Y=\frac{\triangle Y_t}{Y_t}=\alpha\frac{\triangle K_t}{K_t}=g_K$$
+
+### No-Arbitrage Equation for Investment
+
+
+Consider a firm thinking of investing  $\$P_K$ . The firm has two options: bank deposit or physical capital\newline
+
+
+\begin{center}Bank Deposit \space \space \space \space \space"No-Arbitrage"\space \space Physical Capital(rent out)\end{center}
+$$\frac{P_K(1+R)}{P_K}-\frac{P_K}{P_K} \ \ \ \ \ \ \ \ =\ \ \ \ \ \ \ \frac{r\times P_K+P_K^{used}}{P_K}-\frac{P_K}{P_K}$$
+
+$$R=r+\frac{P^u_K-P_K}{P_K}\to \frac{P'_K-P_K}{P_K}-d \to \frac{\triangle P_K}{P_K}-\bar d$$
+$$R=r+\frac{\triangle P_K}{P_K}-\bar d$$
+
+### The User Cost of Capital
+
+$$MPK = R+\bar d-\frac{\triangle P_K}{P_K}=uc$$
+
++ R: opportunity cost of funds
++ $\bar d$: depreciation cost
++ $\frac{\triangle P_K}{P_K}$: capital gain (if +)/ loss (if -)
+
+
+### Ideas are Nonrivalrous
+
+Important: distinguish nonrivalry from scarcity and excludability
+
++ nonrivalry: once they are created, it is feasible for ideas to be used by anybody 
++ scarcity: new ideas are scarce, always better to have more
++ excludability: use of ideas can be restricted by property rights
+
+
+### Production and Cost
+
+
++ Production: $Y=L^\alpha$
++ Fixed Cost: $F$
++ Total Function: $C=F+w\times L, L=Y^{\frac{1}{2}}$
++ Cost Function : $C(Y)=F+w\times Y^{\frac{1}{2}}$
++ Marginal Cost: $MC=\frac{dC(Y)}{dY}=\frac{1}{2}+w\times Y^{\frac{1-\alpha}{\alpha}}$
++ Average Cost: $AC=\frac{C(Y)}{Y}=\frac{F}{Y}+\frac{wY^{\frac{1}{2}}}{Y}=\frac{F}{Y}+wY^{\frac{1-\alpha}{\alpha}}$
++ Profits per unit: $\frac{\pi}{Y}=\frac{P\times Y-C(Y)}{Y}=P-AC$
+
+### Returns to Scale and Average Cost
+
+Average Cost: $$AC(Y)=\frac{C(Y)}{Y}$$ $$AC(Y)increasing in Y: decreasing RS$$ $$AC(Y)constant in Y: constant RS$$ $$AC(Y)decreasing in Y: increasing RS$$
+
+
+### Fixed Cost, Average Cost, and Increasing Returns to Scale
+
+Production: $Y=L$\newline
+Fixed Cost: F
+
++ $F=0, C(Y)=wY,AC(Y)=w$
++ $F>0$
+
+
+$$Y$$ $$= 0 when C(Y)\le F \to AC(Y)=\frac{wL+F}{Y}=\frac{wY+F}{Y}=w+\frac{F}{Y}=\infty$$ $$= L when C(Y)>F\to AC(Y)=\frac{F}{Y}+\frac{wL}{Y}=\frac{F}{Y}+w$$
+
+decreasing in Y, so increasing returns!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
